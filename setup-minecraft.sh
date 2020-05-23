@@ -18,6 +18,8 @@ rm MCMA2-Latest.zip
 echo "You need to enter a passward for McMyAdmin."
 read -p 'Password for McMyAdmin: ' uservar
 mono McMyAdmin.exe -setpass $uservar -configonly
+echo "Downloading run script..."
+wget https://raw.githubusercontent.com/jacktwhiston/2020-ifb102-mc-server-project/master/run_McMyAdmin.sh
 echo "Cockpit is avaliable on port 9090."
 echo "McMyAdmin is avaliable on port 8080."
 echo "Change into the McMyAdmin installation directory and start the program by typing mono McMyAdmin.exe the ~/McMyAdmin directory."
