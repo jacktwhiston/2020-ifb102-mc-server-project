@@ -1,0 +1,1 @@
+mono ~/McMyAdmin/McMyAdmin.exe
