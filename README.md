@@ -7,7 +7,9 @@ Install the QUT Raspberry Pi Customised Raspberry Pi Operating System on a flash
 It uses a modified version of Raspbian Buster 10 that includes the necessary packages to run this project.
 
 ## Step 2
-Update your system using: `sudo apt-get update && sudo apt-get upgrade`
+Update your system using:
+```sudo apt-get update
+sudo apt-get upgrade```
 
 ## Step 3
 Install with Linux GNU Screen with: `sudo apt-get install screen`
