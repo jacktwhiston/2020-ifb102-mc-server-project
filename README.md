@@ -24,7 +24,8 @@ Set Cockpit to boot on startup with: `sudo systemctl enable cockpit.socket`
 
 ## Step 6
 Download McMyAdmin with the following commands
-```mkdir ~/McMyAdmin
+```
+mkdir ~/McMyAdmin
 cd ~/McMyAdmin
 wget http://mcmyadmin.com/Downloads/MCMA2-Latest.zip
 unzip MCMA2-Latest.zip
