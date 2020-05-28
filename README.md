@@ -3,8 +3,9 @@
 Hello and welcome to the installation process for the dedicated Minecraft server management web tool for Raspberry Pi.
 
 ## Step 1
-Install the QUT Raspberry Pi Customised Raspberry Pi Operating System on a flash drive and place it into your Raspberry Pi.
+Install the QUT Customised Raspberry Pi Operating System on a flash drive and place it into your Raspberry Pi.
 It uses a modified version of Raspbian Buster 10 that includes the necessary packages to run this project.
+If you do not have access to the QUT Customised Raspberry Pi Operating System, make sure you have Raspbian Buster 10 installed with OpenJDK 11.
 
 ## Step 2
 Update your system using:
