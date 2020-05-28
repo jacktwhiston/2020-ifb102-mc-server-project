@@ -35,12 +35,15 @@ rm MCMA2-Latest.zip
 Perform the first time setup for McMyAdmin with the following command, replace [PASSWORD] with the password you want to use for the McMyAdmin admin account: `mono McMyAdmin.exe -setpass [PASSWORD] -configonly`
 
 ## Step 8
-Download the run script into a directory of your choosing: `wget https://raw.githubusercontent.com/jacktwhiston/2020-ifb102-mc-server-project/master/run_mcserver.sh`
+Install mono with: `sudo apt install mono-complete`
 
 ## Step 9
-Give the script execute privilleges: `chmod +x run_mcserver.sh`
+Download the run script into a directory of your choosing: `wget https://raw.githubusercontent.com/jacktwhiston/2020-ifb102-mc-server-project/master/run_mcserver.sh`
 
 ## Step 10
+Give the script execute privilleges: `chmod +x run_mcserver.sh`
+
+## Step 11
 When you wish to launch the server, run the script as from the directory containing the script with: `./run_mcserver.sh`
 
 ## Notes
