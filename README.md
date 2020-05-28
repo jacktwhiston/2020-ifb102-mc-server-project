@@ -42,7 +42,7 @@ sudo apt update
 sudo apt install mono-complete
 ```
 ## Step 8
-Perform the first time setup for McMyAdmin with the following command, replace [PASSWORD] with the password you want to use for the McMyAdmin admin account: `mono McMyAdmin.exe -setpass [PASSWORD] -configonly`
+Perform the first time setup for McMyAdmin with the following command, replace PASSWORD with the password you want to use for the McMyAdmin admin account: `mono McMyAdmin.exe -setpass PASSWORD -configonly`
 
 ## Step 9
 Download the run script into a directory of your choosing: `wget https://raw.githubusercontent.com/jacktwhiston/2020-ifb102-mc-server-project/master/run_mcserver.sh`
