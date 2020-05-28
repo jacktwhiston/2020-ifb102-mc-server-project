@@ -33,8 +33,14 @@ rm MCMA2-Latest.zip
 ```
 
 ## Step 7
-Install mono with: `sudo apt install mono-complete`
-
+Install mono with the following commands:
+```
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+sudo sh -c 'echo "deb https://download.mono-project.com/repo/debian stable-buster main" > /etc/apt/sources.list.d/mono-official-stable.list'
+sudo apt update
+sudo apt install mono-complete
+```
 ## Step 8
 Perform the first time setup for McMyAdmin with the following command, replace [PASSWORD] with the password you want to use for the McMyAdmin admin account: `mono McMyAdmin.exe -setpass [PASSWORD] -configonly`
 
