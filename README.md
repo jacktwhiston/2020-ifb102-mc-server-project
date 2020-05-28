@@ -8,7 +8,8 @@ It uses a modified version of Raspbian Buster 10 that includes the necessary pac
 
 ## Step 2
 Update your system using:
-```sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get upgrade
 ```
 
